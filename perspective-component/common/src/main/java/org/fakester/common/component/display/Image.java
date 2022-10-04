@@ -13,7 +13,7 @@ import org.fakester.common.RadComponents;
 public class Image  {
 
     // unique ID of the component which perfectly matches that provided in the javascript's ComponentMeta implementation
-    public static String COMPONENT_ID = "rad.display.image";
+    public static final String COMPONENT_ID = "rad.display.image";
 
     /**
      * The schema provided with the component descriptor. Use a schema instead of a plain JsonObject because it gives

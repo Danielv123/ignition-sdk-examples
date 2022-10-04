@@ -9,7 +9,7 @@ import org.fakester.common.RadComponents;
  * Meta information about the TagCounter component.  See {@link Image} for docs on each field.
  */
 public class TagCounter {
-    public static String COMPONENT_ID = "rad.display.tagcounter";
+    public static final String COMPONENT_ID = "rad.display.tagcounter";
 
     public static JsonSchema SCHEMA =
         JsonSchema.parse(RadComponents.class.getResourceAsStream("/tagcounter.props.json"));
